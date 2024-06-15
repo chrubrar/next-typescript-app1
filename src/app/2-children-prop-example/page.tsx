@@ -1,11 +1,9 @@
 import React from 'react'
-import Parent from '../children/Parent';
-import Child from '../children/Child';
-
-interface Props {}
+import Parent from '../components/children/Parent';
+import Child from '../components/children/Child';
 
 const ChildrenPropExample= () => {
-  return (<div>
+  return (<div className='flex min-h-screen'>
     <Parent>
         <Child />
     </Parent>
