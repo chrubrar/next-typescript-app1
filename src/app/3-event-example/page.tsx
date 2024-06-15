@@ -11,7 +11,7 @@ const EventExample = () =>{
 
     const handleClick = (e: React.MouseEvent<HTMLButtonElement>) =>{
         e.preventDefault();
-        console.log("searched")
+        console.log("searched !")
 
     }
 
@@ -22,7 +22,7 @@ const EventExample = () =>{
     }
 
     return (
-        <div className="eventExample">
+        <div className="eventExample flex flex-cols  min-h-screen">
           <form>
             <input
               type="text"
